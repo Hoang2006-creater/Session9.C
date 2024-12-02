@@ -4,14 +4,14 @@ int main()
  int a, b, arr[100], d=0, sum=0, min=arr[0], max=arr[0], e, addindex;
 do
 {
-	printf ("1.nhap k?ch co v? gia tri mang \n");
-	printf ("2.in ra c?c gia tri trong mang \n");
+	printf ("1.nhap kich co vi gia tri mang \n");
+	printf ("2.in ra cac gia tri trong mang \n");
 	printf ("3.in ra cac gia tri chan trong mang \n");
 	printf ("4.in ra gia tri lon nhat va gia tri nho nhat \n");
 	printf ("5. in ra cac phan tu la so nguyen to trong mang \n");
 	printf ("6.nhap vao mot so va thong ke trong mang co bao nhieu phan tu do\n");
 	printf ("7.them phan tu vao vi tri chi dinh\n");
-	printf ("8.thaot\n");
+	printf ("8.thoat\n");
 	printf ("moi nhap lua chon:");
 	scanf ("%d",&a);
 	switch (a)
